@@ -30,6 +30,8 @@ Accuracy, Precision, Recall, F1-Score, ROC-AUC, Confusion Matrix
 
 ## Installation
 
+**Please note that for the install to work properly, please use Python 3.11.**
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/<your-username>/f1-dnf-prediction.git
