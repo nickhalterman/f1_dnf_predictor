@@ -34,7 +34,7 @@ Accuracy, Precision, Recall, F1-Score, ROC-AUC, Confusion Matrix
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/f1-dnf-prediction.git
+   git clone https://github.com/nickhalterman/f1_dnf_predictor.git
    cd f1-dnf-prediction
    ```
 
