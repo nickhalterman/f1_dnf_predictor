@@ -30,7 +30,7 @@ Accuracy, Precision, Recall, F1-Score, ROC-AUC, Confusion Matrix
 
 ## Installation
 
-**NOTE: Please note that for the install to work properly, please use Python 3.11.**
+**NOTE: Use Python 3.11 for the install to work properly.**
 
 1. Clone the repository:
    ```bash
