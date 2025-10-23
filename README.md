@@ -1,15 +1,15 @@
 
-## Author
-
-**Nicholas Halterman**  
-Western Governors University – B.S. Computer Science  
-Capstone Project (C964)
-
 # Formula 1 DNF Prediction  
 Western Governors University – C964 Computer Science Capstone  
 
 This project uses machine learning to predict whether a Formula 1 driver will record a **DNF (Did Not Finish)** in a race.  
 By analyzing historical race data, including driver, constructor, weather, and circuit information, the model helps identify reliability risks before race day.
+
+## Author
+
+**Nicholas Halterman**  
+Western Governors University – B.S. Computer Science  
+Capstone Project (C964)
 
 ## Project Overview
 
