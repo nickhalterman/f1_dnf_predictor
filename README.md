@@ -67,7 +67,7 @@ Accuracy, Precision, F1-Score, Correlation Heatmap, Confusion Matrix, ROC
 2. Run all cells in order.  
    The notebook will:
    - Load and clean the dataset  
-   - Train multiple models  
+   - Train a Logisitc Regression model
    - Evaluate their performance  
    - Save the best model to `/src/model.joblib`
 
