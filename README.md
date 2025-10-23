@@ -5,15 +5,11 @@
 Western Governors University – B.S. Computer Science  
 Capstone Project (C964)
 
----
-
 # Formula 1 DNF Prediction  
 Western Governors University – C964 Computer Science Capstone  
 
 This project uses machine learning to predict whether a Formula 1 driver will record a **DNF (Did Not Finish)** in a race.  
 By analyzing historical race data, including driver, constructor, weather, and circuit information, the model helps identify reliability risks before race day.
-
----
 
 ## Project Overview
 
@@ -31,8 +27,6 @@ Logistic Regression, Random Forest, XGBoost
 
 **Evaluation Metrics:**  
 Accuracy, Precision, Recall, F1-Score, ROC-AUC, Confusion Matrix
-
----
 
 ## Installation
 
@@ -59,8 +53,6 @@ Accuracy, Precision, Recall, F1-Score, ROC-AUC, Confusion Matrix
    jupyter notebook
    ```
 
----
-
 ## Running the Notebook
 
 1. Open `C964_F1_DNF_Prediction.ipynb`.
@@ -70,8 +62,6 @@ Accuracy, Precision, Recall, F1-Score, ROC-AUC, Confusion Matrix
    - Train multiple models  
    - Evaluate their performance  
    - Save the best model to `/src/model.joblib`
-
----
 
 ## Model Prediction and Interactive Testing
 
@@ -100,8 +90,6 @@ The cell labeled **"Interactive DNF prediction with ipywidgets"** allows you to 
 In this example, the model predicts that the driver will not finish the race with an estimated 85.6% probability of DNF.  
 You can continue adjusting the index to explore how the model performs across different samples.
 
----
-
 ## Project Files
 
 | File | Description |
@@ -110,8 +98,6 @@ You can continue adjusting the index to explore how the model performs across di
 | `src/model.joblib` | Saved trained model |
 | `data/f1_dnf.csv` | Dataset used for training and testing |
 | `requirements.txt` | List of dependencies |
-
----
 
 ## Notes
 
