@@ -10,6 +10,7 @@ By analyzing historical race data, including driver, constructor, weather, and c
 **Nicholas Halterman**  
 Western Governors University – B.S. Computer Science  
 Capstone Project (C964)
+Student ID: 011576257
 
 ## Project Overview
 
@@ -23,10 +24,10 @@ Build and evaluate a supervised machine learning model that classifies race outc
 Python, Pandas, Scikit-learn, Matplotlib, Seaborn, Joblib, Jupyter Notebook
 
 **Models Used:**  
-Logistic Regression, Random Forest, XGBoost
+Logistic Regression
 
 **Evaluation Metrics:**  
-Accuracy, Precision, Recall, F1-Score, ROC-AUC, Confusion Matrix
+Accuracy, Precision, F1-Score, Correlation Heatmap, Confusion Matrix, ROC
 
 ## Installation
 
@@ -84,7 +85,7 @@ The cell labeled **"Interactive DNF prediction with ipywidgets"** allows you to 
    ```
 
 2. Scroll to the interactive prediction cell and run it.  
-   A slider labeled **"Sample Index"** will appear.
+   A slider labeled **"Index"** will appear.
 
 3. Use the slider or type a number in the input box to select a record from `X_test`.
 
@@ -93,9 +94,6 @@ The cell labeled **"Interactive DNF prediction with ipywidgets"** allows you to 
    - The model’s prediction (**DNF** or **Finish**)  
    - The probability of each outcome  
    - The feature values for that record
-
-In this example, the model predicts that the driver will not finish the race with an estimated 85.6% probability of DNF.  
-You can continue adjusting the index to explore how the model performs across different samples.
 
 ## Project Files
 
