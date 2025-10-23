@@ -55,7 +55,7 @@ Accuracy, Precision, Recall, F1-Score, ROC-AUC, Confusion Matrix
 
 ## Running the Notebook
 
-1. Open `C964_F1_DNF_Prediction.ipynb`.
+1. Open `f1_dnf_predictor.ipynb`.
 2. Run all cells in order.  
    The notebook will:
    - Load and clean the dataset  
