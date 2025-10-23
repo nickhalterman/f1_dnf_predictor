@@ -30,15 +30,17 @@ Accuracy, Precision, Recall, F1-Score, ROC-AUC, Confusion Matrix
 
 ## Installation
 
+**NOTE: Use Python 3.11 for the install to work properly.**
+
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/f1-dnf-prediction.git
+   git clone https://github.com/nickhalterman/f1_dnf_predictor.git
    cd f1-dnf-prediction
    ```
 
 2. Create and activate a virtual environment:
    ```bash
-   python -m venv venv
+   python3 -m venv venv
    source venv/bin/activate      # macOS/Linux
    venv\Scripts\activate         # Windows
    ```
@@ -48,14 +50,19 @@ Accuracy, Precision, Recall, F1-Score, ROC-AUC, Confusion Matrix
    pip install -r requirements.txt
    ```
 
-4. Launch Jupyter Notebook:
+4. Install Jupyter:
+   ```bash
+   pip install jupyter
+   ```
+
+5. Launch Jupyter Notebook:
    ```bash
    jupyter notebook
    ```
 
 ## Running the Notebook
 
-1. Open `C964_F1_DNF_Prediction.ipynb`.
+1. Open `f1_dnf_predictor.ipynb`.
 2. Run all cells in order.  
    The notebook will:
    - Load and clean the dataset  
