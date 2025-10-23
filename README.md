@@ -50,7 +50,12 @@ Accuracy, Precision, Recall, F1-Score, ROC-AUC, Confusion Matrix
    pip install -r requirements.txt
    ```
 
-4. Launch Jupyter Notebook:
+4. Install Jupyter:
+   ```bash
+   pip install jupyter
+   ```
+
+5. Launch Jupyter Notebook:
    ```bash
    jupyter notebook
    ```
