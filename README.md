@@ -38,7 +38,7 @@ Accuracy, Precision, Recall, F1-Score, ROC-AUC, Confusion Matrix
 
 2. Create and activate a virtual environment:
    ```bash
-   python -m venv venv
+   python3 -m venv venv
    source venv/bin/activate      # macOS/Linux
    venv\Scripts\activate         # Windows
    ```
